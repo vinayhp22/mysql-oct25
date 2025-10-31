@@ -1,5 +1,7 @@
 -- Distinct - distinct keyword is used remove the duplicates in the result.
 
+Use animals_db;
+
 CREATE TABLE animals(
 	id int PRIMARY KEY AUTO_INCREMENT, 
     name VARCHAR(50), 
@@ -68,13 +70,13 @@ SELECT * FROM students WHERE age >= 28;
 
 
 -- using logical opearators
--- AND opearation
+-- AND opearation - both condition should be true
 SELECT * FROM students WHERE course = 'Python Full Stack' AND status = 'Active';
 
--- OR opeartion
+-- OR opeartion - if anyone consition is true 
 SELECT * FROM students WHERE course = 'Python Full Stack' OR date_of_joining < '2025-10-25';
 
--- NOT Oparation
+-- NOT Oparation - opposite of given condition
 SELECT * FROM students WHERE NOT status = "Active";
 
 -- 1. Students above 25 age and active

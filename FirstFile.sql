@@ -95,10 +95,10 @@ SELECT * FROM datatype_demo;
 DESC datatype_demo;
 
 INSERT INTO datatype_demo
-(student_id, marks, distance, price, tiny_value, big_value, gender, full_name, address, gender_type,
+(student_id, distance, price, tiny_value, big_value, gender, full_name, address, gender_type,
  birth_date, login_time, event_datetime) 
 VALUES
-(101, 88.78, 12500.839, 2000.30, 5, 8028200383, "M", "Virat Kohli", "BTM Layout, Bengaluru",
+(101, 12500.839, 2000.30, 5, 8028200383, "M", "Virat Kohli", "BTM Layout, Bengaluru",
 'Male', "1985-10-30", '25:00:00', '2025-10-24 12:00:00');
 
 
